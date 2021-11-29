@@ -2,7 +2,7 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'fastlane/plugin/android_versioning/version'
+require 'fastlane/plugin/android_versioning_plus/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'fastlane-plugin-android_versioning_plus'

@@ -1,4 +1,4 @@
-require 'fastlane/plugin/android_versioning/version'
+require 'fastlane/plugin/android_versioning_plus/version'
 
 module Fastlane
   module AndroidVersioning

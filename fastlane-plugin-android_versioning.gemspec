@@ -5,13 +5,13 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'fastlane/plugin/android_versioning/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'fastlane-plugin-android_versioning'
+  spec.name          = 'fastlane-plugin-android_versioning_plus'
   spec.version       = Fastlane::AndroidVersioning::VERSION
-  spec.author        = 'Manabu OHTAKE'
-  spec.email         = 'manabu2783@hotmail.com'
+  spec.author        = 'Egor Dmitriev'
+  spec.email         = 'egordmitriev2@gmail.com'
 
   spec.summary       = 'Allows to set/get app version name and version code directly to/from build.gradle'
-  spec.homepage      = "https://github.com/otkmnb2783/fastlane-plugin-android_versioning"
+  spec.homepage      = "https://github.com/OMed-Health/fastlane-plugin-android_versioning_plus"
   spec.license       = "MIT"
 
   spec.files         = Dir["lib/**/*"] + %w(README.md LICENSE)

@@ -6,7 +6,7 @@ require 'fastlane/plugin/android_versioning_plus/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'fastlane-plugin-android_versioning_plus'
-  spec.version       = Fastlane::AndroidVersioning::VERSION
+  spec.version       = Fastlane::AndroidVersioningPlus::VERSION
   spec.author        = 'Egor Dmitriev'
   spec.email         = 'egordmitriev2@gmail.com'
 

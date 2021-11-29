@@ -1,5 +1,5 @@
 module Fastlane
-  module AndroidVersioning
+  module AndroidVersioningPlus
     VERSION = "0.5.5"
   end
 end
